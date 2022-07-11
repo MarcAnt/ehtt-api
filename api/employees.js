@@ -4,7 +4,6 @@ const router = express.Router();
 router.get("/", async (req, res) => {
   try {
     res.json({
-      status: 200,
       employees: [
         {
           id: "1",
