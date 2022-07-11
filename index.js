@@ -4,6 +4,9 @@ const express = require("express");
 // Initialize Express
 const app = express();
 
+const cors = require("cors");
+app.use(cors());
+
 const employees = require("./api/employees");
 
 // Create GET request
